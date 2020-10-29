@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-我的一个博客文章" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/29/%E6%88%91%E7%9A%84%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2020-10-29T11:35:01.286Z" itemprop="datePublished">2020-10-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="我的一个博客，算是有点晚吧。"><a href="#我的一个博客，算是有点晚吧。" class="headerlink" title="我的一个博客，算是有点晚吧。"></a>我的一个博客，算是有点晚吧。</h2><ol>
+<li>个人认为自己是个三分热度的人，对什么事都做不久了很久。个人学过c、c++、java、汇编、但都只是了解其基本语法知识。目前学习python，对python爬虫独有情钟，算是学的最久，也算是小有成就的一门语言吧。现在开始一份代码吧。</li>
+</ol>
+<p>这里为python所要用的库的安装</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests       <span class="comment">#导入request库及Beautiful</span></span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20191219211706978.png" alt="这是安装bs4库的，安装格式：所安装的python路径 -m pip install 所要安装的库 ">soup.find_all(‘div’,class_=’hd’)#找到电影标题<br>            可以看到电影名称在为(‘div’,class_=’hd’)下的text文档里<br><img src="https://img-blog.csdnimg.cn/20191219212142686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="可以看到电影名称在为(&#39;div&#39;,class_=&#39;hd&#39;)下的text文档里"></p>
+<p>下面为完整段代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests       <span class="comment">#导入request库及Beautiful</span></span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_movie</span>():</span></span><br><span class="line">    headers=&#123;<span class="string">&#x27;User-Agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) 37abc/2.0.6.16 Chrome/60.0.3112.113 Safari/537.36&#x27;</span>,<span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;movie.douban.com&#x27;</span>&#125;<span class="comment">#获取头文件</span></span><br><span class="line">    movie_list=[]<span class="comment">#存放所爬取电影的名的列表</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">10</span>):<span class="comment">#这里设置的为爬取10页电影名称</span></span><br><span class="line">        link=<span class="string">&#x27;https://movie.douban.com/top250?start=&#x27;</span>+<span class="built_in">str</span>(i*<span class="number">25</span>)<span class="comment">#每页的链接</span></span><br><span class="line">        r=requests.get(link,headers=headers)<span class="comment">#获取网页响应的内容</span></span><br><span class="line">        print(<span class="built_in">str</span>(i+<span class="number">1</span>),<span class="string">&quot;页响应状态码:&quot;</span>,r.status_code)</span><br><span class="line">        soup=BeautifulSoup(r.text,<span class="string">&quot;lxml&quot;</span>)<span class="comment">#使用Beautiful解析网页</span></span><br><span class="line">        div_list=soup.find_all(<span class="string">&#x27;div&#x27;</span>,class_=<span class="string">&#x27;hd&#x27;</span>)<span class="comment">#找到标题</span></span><br><span class="line">        <span class="keyword">for</span> each <span class="keyword">in</span> div_list:</span><br><span class="line">            movie=each.a.span.text.strip()<span class="comment">#提取文本，去除多余空格</span></span><br><span class="line">            movie_list.append(movie)<span class="comment">#添加到列表</span></span><br><span class="line">    <span class="keyword">return</span> movie_list</span><br><span class="line">movies=get_movie()</span><br><span class="line"><span class="keyword">for</span> h <span class="keyword">in</span> movies:</span><br><span class="line">    print(h)</span><br></pre></td></tr></table></figure>
+<p>这是爬取的结果<br><img src="https://img-blog.csdnimg.cn/20191219213035943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>谢谢观赏，初次写博客还有些生疏，如有不足请指出，大家一起学习。python爬虫很好玩，本人常常用来爬爬网络资料，当然无聊时也会爬爬图片养眼，嘿嘿….<br><a target="_blank" rel="noopener" href="https://qiakiwen.github.io/">本人博客hexo博客，现在正在学习阶段</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/29/%E6%88%91%E7%9A%84%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckgurfpuw0001vcv042m892kd" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-晚闻子" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/29/%E6%99%9A%E9%97%BB%E5%AD%90/" class="article-date">
+  <time datetime="2020-10-29T11:35:01.281Z" itemprop="datePublished">2020-10-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="title-欢迎来到晚闻子的网页"><a href="#title-欢迎来到晚闻子的网页" class="headerlink" title="title:欢迎来到晚闻子的网页"></a>title:欢迎来到晚闻子的网页</h2><p>下面是一款基于python中pygame的猜题游戏</p>
+<pre><code>#coding=UTF-8
+#导入游戏库
+import pygame,sys
+from pygame.locals import *
+from trash import Sky
+class Trivia(object):
+#游戏板块初始化
+    def __init__(self,filename):
+        self.data=[]
+        self.current=0
+        self.total=0
+        self.correct=0
+        self.score=0
+        self.scored=False
+        self.failed=False
+        self.wronganswer=0
+        self.colors=[white,white,white,white]
+#读取问题表的.txt文件
+        #read trivia data from file
+        f=open(filename,&#39;r&#39;,encoding=&#39;utf8&#39;)
+        trivia_data=f.readlines()
+        trivia_data=trivia_data
+        f.close()
+#逐行读取问题，并显示
+        #count and clean uo trivia data
+        for text_line in trivia_data:
+            self.data.append(text_line.strip())
+            self.total+=1
+#设置游戏背景颜色
+    def print_text(font,x,y,text,color=(255,255,255),shadom=True):
+        if shadom:
+            imgText=font.render(text,True,(0,0,0))
+            screen.blit(imgText,(x-2,y-2))
+        imgText=font.render(text,True,color)
+        screen.blit(imgText,(x,y))
+#对游戏问题进行设置
+    def show_question(self):
+        print_text(font1,260,5,&quot;TRIVIA GAME&quot;)
+        print_text(font2,240,420,&quot;Press Keys (1-4) To Answer &quot;)
+        print_text(font2,700,5,&quot;SCORE &quot;,purple)
+        print_text(font2,750,25,str(self.score),purple)
+        print_text(font2,623,50,&quot;p=pause l=unpause&quot;,purple)
+        #get correct answer out of data (first)
+        self.correct=int(self.data[self.current+5])
+#绘制出游戏文字
+        #display question
+        question=self.current //6+1
+        print_text(font1,55,80,&quot;QUESTION&quot;+str(question))
+        print_text(font2,70,120,self.data[self.current])
+#当选择正确时则显示绿色，错误显示红色
+        #respond to correct answer
+        if self.scored:
+            self.colors=[white,white,white,white]
+            self.colors[self.correct-1]=green
+            print_text(font1,280,320,&quot;CORRECT!&quot;,green)
+            print_text(font2,250,380,&quot;Press Enter For Next Question&quot;,green)
+        elif self.failed:
+            self.colors=[white,white,white,white]
+            self.colors[self.wronganswer-1]=red
+            self.colors[self.correct-1]=green
+            print_text(font1,270,320,&quot;INCORRECT!&quot;,red)
+            print_text(font2,250,380,&quot;Press Enter For Next Question&quot;,red)
+        elif self.score==4:
+            print_text(font2,300,300,&quot;You Are Great,Fighting!&quot;,red)
+#显示游戏答案
+        #display answers
+        print_text(font1,55,170,&quot;ANSWERS&quot;)
+        print_text(font2,70,210,&quot;1-&quot;+self.data[self.current+1],self.colors[0])
+        print_text(font2, 70, 240, &quot;2-&quot; + self.data[self.current + 2], self.colors[1])
+        print_text(font2, 70, 270, &quot;3-&quot; + self.data[self.current + 3], self.colors[2])
+        print_text(font2, 70, 300, &quot;4-&quot; + self.data[self.current + 4], self.colors[3])
+    def handle_input(self,number):
+        if not self.scored and not self.failed:
+            if number==self.correct:
+                self.scored=True
+                self.score+=1
+            else:
+                self.failed=True
+                self.wronganswer=number
+        if self.score==5:
+            self.score=0
+#按下空格键则显示下一题
+    def next_question(self):
+        if self.scored or self.failed:
+            self.scored=False
+            self.failed=False
+            self.correct=0
+            self.colors=[white,white,white,white]
+            self.current+=6
+            if self.current&gt;=self.total:
+                self.current=0
+#main program begins
+pygame.init()
+pygame.mixer.init()
+screen=pygame.display.set_mode((800,450))
+pygame.display.set_caption(&quot;晚闻子的真心话冒险&quot;)
+sky=Sky(screen)
+font1=pygame.font.SysFont(&#39;arial&#39;,40)
+font2=pygame.font.SysFont(&#39;arial&#39;,24)
+white=255,255,255
+cyan=0,255,255
+yellow=255,0,255
+purple=255,0,255
+green=0,255,0
+red=255,0,0
+trivia = Trivia(r&quot;C:\Users\Lenovo\OneDrive\桌面\爬虫\喜欢.txt&quot;)
+pygame.mixer.music.load(r&quot;D:\CloudMusic\Days.mp3&quot;)
+def print_text(font, x, y, text, color=(255, 255, 255), shadom=True):
+    if shadom:
+        imgText = font.render(text, True, (0, 0, 0))
+        screen.blit(imgText, (x - 2, y - 2))
+    imgText = font.render(text, True, color)
+    screen.blit(imgText, (x, y))
+#repeating loop
+while True:
+    if pygame.mixer.music.get_busy()==False:
+        pygame.mixer.music.play()
+    for event in pygame.event.get():
+        if event.type==QUIT:
+            sys.exit()
+        elif event.type==KEYUP:
+            if event.key==pygame.K_ESCAPE:
+                sys.exit()
+            elif event.key==pygame.K_1:
+                trivia.handle_input(1)
+            elif event.key==pygame.K_2:
+                trivia.handle_input(2)
+            elif event.key==pygame.K_3:
+                trivia.handle_input(3)
+            elif event.key==pygame.K_4:
+                trivia.handle_input(4)
+            elif event.key==pygame.K_RETURN:
+                trivia.next_question()
+        elif event.type==KEYDOWN:
+            if event.key==pygame.K_p:
+                pygame.mixer.music.pause()
+            elif event.key==pygame.K_l:
+                pygame.mixer.music.unpause()
+        #clean the screen
+        screen.fill((0,255,0))
+        sky.blitme()
+        #display trivia data
+        trivia.show_question()
+        #update the display
+        pygame.display.update()</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/29/%E6%99%9A%E9%97%BB%E5%AD%90/" data-id="ckgurfpuz0003vcv0ak3s9b1h" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-拍摄1_1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/29/%E6%8B%8D%E6%91%841_1/" class="article-date">
+  <time datetime="2020-10-29T11:35:01.276Z" itemprop="datePublished">2020-10-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="雪景"><a href="#雪景" class="headerlink" title="雪景"></a>雪景</h2><blockquote>
+<p>小小印地安雪人</p>
+</blockquote>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vSU1HMjAxODEyMzAxMzI5MzQuanBn?x-oss-process=image/format,png" alt="在这里插入图片描述"><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vJUU5JUI4JTlGJUU3JUFBJTlELmpwZw?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+<h2 id="晚霞"><a href="#晚霞" class="headerlink" title="晚霞"></a>晚霞</h2><blockquote>
+<p>校的花园</p>
+</blockquote>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vJUU2JTk5JTlBJUU5JTlDJTlFMS5qcGc?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>红霞<br><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vJUU2JTk5JTlBJUU5JTlDJTlFMi5qcGc?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+</blockquote>
+<h2 id="旅景"><a href="#旅景" class="headerlink" title="旅景"></a>旅景</h2><p>旅店的朝阳</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vSU1HMjAxOTEwMDMwNjEwMjUuanBn?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>那儿的画<br><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vdGElRTclOTQlQkIuanBn?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+</blockquote>
+<blockquote>
+<p>学习日语的初衷<br><img src="https://imgconvert.csdnimg.cn/aHR0cDovL3EzODkxbmpheS5ia3QuY2xvdWRkbi5jb20vJUU2JTk3JUE1JUU4JUFGJUFEJUU3JTlBJTg0JUU1JTg4JTlEJUU1JUJGJTgzLSVFNiVCMyVBMSVFNiVCMiVBQiVFNSU4NiVBQyVFNiU5OSVBRi5wbmc?x-oss-process=image/format,png" alt="在这里插入图片描述"></p>
+</blockquote>
+<p>最近采用新技术，极大提升了网站效率。</p>
+<p>考试快到了，考个好成绩，那天也快到了，然后吃个冰淇淋，演奏着乐器</p>
+<p>再次做个傻子</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/29/%E6%8B%8D%E6%91%841_1/" data-id="ckgurfpuy0002vcv07q7i37bw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-美德v0.8_天堂完结_猫女仆完结_二次元老婆学院v0.8" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/29/%E7%BE%8E%E5%BE%B7v0.8_%E5%A4%A9%E5%A0%82%E5%AE%8C%E7%BB%93_%E7%8C%AB%E5%A5%B3%E4%BB%86%E5%AE%8C%E7%BB%93_%E4%BA%8C%E6%AC%A1%E5%85%83%E8%80%81%E5%A9%86%E5%AD%A6%E9%99%A2v0.8/" class="article-date">
+  <time datetime="2020-10-29T11:35:01.269Z" itemprop="datePublished">2020-10-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="美德v0-8安卓-pc"><a href="#美德v0-8安卓-pc" class="headerlink" title="美德v0.8安卓+pc"></a>美德v0.8安卓+pc</h2><p>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1R75YVYgYr_8FzOj9BNsT9Q">网盘直达</a> 提取码: 25mk<br>解压码:百宝袋bbdacg.com(安卓尽量使用qq浏览器的解压以免出错)</p>
+<p><img src="https://img-blog.csdnimg.cn/20201025114053903.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="猫女仆完结安卓-pc"><a href="#猫女仆完结安卓-pc" class="headerlink" title="猫女仆完结安卓+pc"></a>猫女仆完结安卓+pc</h2><p>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1h9l_8ju_32ief7wnkh0Lpw">网盘直达</a> 提取码: hyuy<br>解压码:YXYLB<br><img src="https://img-blog.csdnimg.cn/20201025114819416.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="天堂完结安卓-pc"><a href="#天堂完结安卓-pc" class="headerlink" title="天堂完结安卓+pc"></a>天堂完结安卓+pc</h2><p>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-_Xffw-fuSxFa3WPz8agNQ">网盘直达</a> 提取码: 3hxj<br>解压码:YXYLB<br><img src="https://img-blog.csdnimg.cn/20201025114052498.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20201025114048630.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20201025114819451.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="二次元老婆学院"><a href="#二次元老婆学院" class="headerlink" title="二次元老婆学院"></a>二次元老婆学院</h2><p>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1h2J_IGscm8vBIuIu0RPruw">网盘直达</a> 提取码: 452i<br>直接解压<br><img src="https://img-blog.csdnimg.cn/20201025114054852.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>好人投一元怎样？<br><img src="https://img-blog.csdnimg.cn/20201025114050640.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70#pic_center" alt="好人平安"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/29/%E7%BE%8E%E5%BE%B7v0.8_%E5%A4%A9%E5%A0%82%E5%AE%8C%E7%BB%93_%E7%8C%AB%E5%A5%B3%E4%BB%86%E5%AE%8C%E7%BB%93_%E4%BA%8C%E6%AC%A1%E5%85%83%E8%80%81%E5%A9%86%E5%AD%A6%E9%99%A2v0.8/" data-id="ckgurfpv60005vcv0aep524v9" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-百分之90的人可能不知道如何正确地使用浏览器" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/29/%E7%99%BE%E5%88%86%E4%B9%8B90%E7%9A%84%E4%BA%BA%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8/" class="article-date">
+  <time datetime="2020-10-29T11:35:01.262Z" itemprop="datePublished">2020-10-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="百分之90的人可能不知道如何正确地使用浏览器、"><a href="#百分之90的人可能不知道如何正确地使用浏览器、" class="headerlink" title="百分之90的人可能不知道如何正确地使用浏览器、"></a>百分之90的人可能不知道如何正确地使用浏览器、</h2><h2 id="一下方法让你的浏览器使用效率极大提高"><a href="#一下方法让你的浏览器使用效率极大提高" class="headerlink" title="一下方法让你的浏览器使用效率极大提高"></a>一下方法让你的浏览器使用效率极大提高</h2><p>方法一：完全匹配关键字法“”<br>即可完全匹配到关键字。其所搜索到的结果，是展示这个完整关键字的结果。而非完整关键字中的某个词。在浏览器搜索栏输入双引号和你所要搜索的内容。如下所示</p>
+<blockquote>
+<p>“  天气之子 “</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20191222190852764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">方法二。限定标题包含关键字intitle:<br>方法:intitle:查询词(intitle 加上 英文冒号 加上 搜索关键词)。比如搜索冯羿.video<br>所发布video视频。因为我们平时搜索相关资讯时，常常会冒出一些乱七八糟的内容，这个方法有效过滤多余内容。</p>
+<blockquote>
+<p>intitle:冯羿.video</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20191222191850555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>3，视频法，在查询词后面加上inurl:video<br>这样搜索的话，所搜索到内容一定包含视频。就比如最近大火电视剧庆余年，我室友也常常蛊惑我去看。想看，但要考试。累…..</p>
+<blockquote>
+<p>朴信慧 inurl:video </p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20191222192821885.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">给大家安利一波福利。想要看庆余年，在腾讯、爱奇艺不用开vip，又不用想冒险去盗版网站看的朋友。可以在百度搜索视频解析器，当然可以用用上面的方法来搜索搜索，然后把想看的视频链接输入到视频解析器里。即可看到，如下操作</p>
+<p><img src="https://img-blog.csdnimg.cn/20191222193558316.png?x-oss-proce%E5%A4%8D%E5%88%B6ss=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="大">去上面的链接，然后再所搜索到的视频解析器里，输入地址即可观看。<br><img src="https://img-blog.csdnimg.cn/20191222193749838.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">6，限定格式法，再查询词后输入filetype:格式 增量调制<br>这个方法在搜索文档时格外有用。</p>
+<blockquote>
+<p>filetype:pdf 增量调制</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20191222194116633.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">推荐一个很厉害的公众号，网罗天下hei<br>近期本人要有许多考试了，博客会先暂停更新一段时间。冬至快乐，吃汤圆、饺子，远方的人在祝福<br>                                                                             –晚闻子<br><a target="_blank" rel="noopener" href="https://qiakiwen.github.io/">有兴趣来本人博客看看</a><br><img src="https://img-blog.csdnimg.cn/20191222194757551.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE4NzU3Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/29/%E7%99%BE%E5%88%86%E4%B9%8B90%E7%9A%84%E4%BA%BA%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8/" data-id="ckgurfpv00004vcv01py1gl3f" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/23/hello-world/" class="article-date">
+  <time datetime="2020-10-23T14:09:13.204Z" itemprop="datePublished">2020-10-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/23/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/23/hello-world/" data-id="ckgurfpup0000vcv0aer41vfa" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/10/29/%E6%88%91%E7%9A%84%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/10/29/%E6%99%9A%E9%97%BB%E5%AD%90/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/10/29/%E6%8B%8D%E6%91%841_1/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/10/29/%E7%BE%8E%E5%BE%B7v0.8_%E5%A4%A9%E5%A0%82%E5%AE%8C%E7%BB%93_%E7%8C%AB%E5%A5%B3%E4%BB%86%E5%AE%8C%E7%BB%93_%E4%BA%8C%E6%AC%A1%E5%85%83%E8%80%81%E5%A9%86%E5%AD%A6%E9%99%A2v0.8/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/10/29/%E7%99%BE%E5%88%86%E4%B9%8B90%E7%9A%84%E4%BA%BA%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
