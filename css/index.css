@@ -1336,7 +1336,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: '';
+  background: url(https://cdn.jsdelivr.net/gh/QiaKiWen/leo@master/222f778ae85266ada54644296fcef14e.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
