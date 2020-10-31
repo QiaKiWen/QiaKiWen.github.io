@@ -4100,6 +4100,12 @@ _:future,
 #vcomment .vbtn:hover {
   background: var(--btn-hover-color);
 }
+#vcomment textarea {
+  background: url("https://cdn.jsdelivr.net/gh/QiaKiWen/leo@master/222f778ae85266ada54644296fcef14e.jpg") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
