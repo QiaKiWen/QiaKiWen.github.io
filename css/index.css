@@ -180,15 +180,6 @@ template {
   display: none
 }
 
-
-/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-@media screen and (max-width: 800px) {
-    #aside_content
-    div:not(:last-child) {
-        display: 
-        font-size: 13px;
-    }
-}
 .limit-one-line,
 .flink#article-container .flink-list > .flink-list-item a .flink-item-name,
 .flink#article-container .flink-list > .flink-list-item a .flink-item-desc,
