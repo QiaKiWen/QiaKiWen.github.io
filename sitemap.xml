@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wanwwwk.icu/posts/15045/</loc>
-    
-    <lastmod>2020-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wanwwwk.icu/categories/index.html</loc>
     
     <lastmod>2020-11-01</lastmod>
@@ -25,7 +18,14 @@
   <url>
     <loc>https://wanwwwk.icu/artitalk/index.html</loc>
     
-    <lastmod>2020-10-31</lastmod>
+    <lastmod>2020-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wanwwwk.icu/posts/15045/</loc>
+    
+    <lastmod>2020-11-01</lastmod>
     
   </url>
   
