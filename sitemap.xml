@@ -165,13 +165,6 @@
 
   
   <url>
-    <loc>https://wanwwwk.icu/tags/pycharm%E8%AF%84%E4%BC%B0%E8%AE%B8%E5%8F%AF%E8%AF%81/</loc>
-    <lastmod>2021-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wanwwwk.icu/tags/%E4%BC%91%E9%97%B2%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -179,7 +172,7 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/vs-mfc/</loc>
+    <loc>https://wanwwwk.icu/tags/pycharm%E8%AF%84%E4%BC%B0%E8%AE%B8%E5%8F%AF%E8%AF%81/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -187,6 +180,13 @@
   
   <url>
     <loc>https://wanwwwk.icu/tags/app/</loc>
+    <lastmod>2021-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wanwwwk.icu/tags/vs-mfc/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,13 +244,6 @@
 
   
   <url>
-    <loc>https://wanwwwk.icu/categories/pycharm%E8%AF%84%E4%BC%B0%E8%AE%B8%E5%8F%AF%E8%AF%81/</loc>
-    <lastmod>2021-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wanwwwk.icu/categories/%E4%BC%91%E9%97%B2%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -258,7 +251,7 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/vs-mfc/</loc>
+    <loc>https://wanwwwk.icu/categories/pycharm%E8%AF%84%E4%BC%B0%E8%AE%B8%E5%8F%AF%E8%AF%81/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -266,6 +259,13 @@
   
   <url>
     <loc>https://wanwwwk.icu/categories/app/</loc>
+    <lastmod>2021-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wanwwwk.icu/categories/vs-mfc/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
