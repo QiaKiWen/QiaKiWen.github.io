@@ -179,6 +179,13 @@
   </url>
   
   <url>
+    <loc>https://wanwwwk.icu/tags/vs-mfc/</loc>
+    <lastmod>2021-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wanwwwk.icu/tags/Hexo/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -200,13 +207,6 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/vs-mfc/</loc>
-    <lastmod>2021-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wanwwwk.icu/tags/%E6%A0%A1%E5%9B%AD/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -221,14 +221,14 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://wanwwwk.icu/tags/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://wanwwwk.icu/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,6 +258,13 @@
   </url>
   
   <url>
+    <loc>https://wanwwwk.icu/categories/vs-mfc/</loc>
+    <lastmod>2021-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wanwwwk.icu/categories/python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E7%9A%84%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -272,13 +279,6 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/vs-mfc/</loc>
-    <lastmod>2021-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wanwwwk.icu/categories/%E6%A0%A1%E5%9B%AD%E7%9A%84%E5%A4%95%E9%98%B3/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -286,14 +286,14 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://wanwwwk.icu/categories/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://wanwwwk.icu/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
