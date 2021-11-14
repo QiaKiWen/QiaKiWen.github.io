@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wanwwwk.icu/posts/0/</loc>
+    <loc>https://wanwwwk.icu/posts/10477/</loc>
     
     <lastmod>2021-11-14</lastmod>
     
@@ -186,6 +186,13 @@
   </url>
   
   <url>
+    <loc>https://wanwwwk.icu/tags/%E5%9B%9B%E5%85%AD%E7%BA%A7/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wanwwwk.icu/tags/vs-mfc/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
@@ -194,20 +201,6 @@
   
   <url>
     <loc>https://wanwwwk.icu/tags/app/</loc>
-    <lastmod>2021-11-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wanwwwk.icu/tags/%E6%A0%A1%E5%9B%AD/</loc>
-    <lastmod>2021-11-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wanwwwk.icu/tags/%E7%BE%8E%E6%99%AF/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -228,6 +221,20 @@
   </url>
   
   <url>
+    <loc>https://wanwwwk.icu/tags/%E6%A0%A1%E5%9B%AD/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wanwwwk.icu/tags/%E7%BE%8E%E6%99%AF/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wanwwwk.icu/tags/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
@@ -235,14 +242,14 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/%E5%A4%A7%E5%9E%8B%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://wanwwwk.icu/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://wanwwwk.icu/tags/%E5%A4%A7%E5%9E%8B%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -265,6 +272,13 @@
   </url>
   
   <url>
+    <loc>https://wanwwwk.icu/categories/%E5%9B%9B%E5%85%AD%E7%BA%A7/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wanwwwk.icu/categories/vs-mfc/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
@@ -279,14 +293,14 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/%E6%A0%A1%E5%9B%AD%E7%9A%84%E5%A4%95%E9%98%B3/</loc>
+    <loc>https://wanwwwk.icu/categories/python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E7%9A%84%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E7%9A%84%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://wanwwwk.icu/categories/%E6%A0%A1%E5%9B%AD%E7%9A%84%E5%A4%95%E9%98%B3/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -300,14 +314,14 @@
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://wanwwwk.icu/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wanwwwk.icu/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://wanwwwk.icu/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
